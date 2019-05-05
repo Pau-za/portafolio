@@ -1,8 +1,25 @@
-body{
-    color: black;
+body {
+  color: black;
 }
 
-.dropdown-content{
-    width: max-content !important;
-    height:auto !important;
- }
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-family: 'Courgette', cursive;
+  font-family: 'Sacramento', cursive;
+  font-family: 'Cookie', cursive;
+}
+
+.dropdown-content {
+  width: max-content !important;
+  height: auto !important;
+}
+
+#about-me{
+    margin-top: 7%;
+    text-align: center;
+}
+
+#my-info{
+    margin: 0% 10%;
+    text-align: justify;
+}
