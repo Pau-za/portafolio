@@ -6,8 +6,9 @@
   <title>My Portafolio</title>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
-  <link href="https://fonts.googleapis.com/css?family=Cookie|Courgette|Pacifico|Sacramento" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Geo|Padauk|Sarpanch" rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
@@ -31,7 +32,7 @@
   </div>
 
   <section id="about-me">
-    <h1>PauZA</h1>
+    <h1>PAUZA</h1>
     <img src="" alt="">
     <h5>Maestra en Ciencias Biológicas/Frontend Developer</h5>
     <div id="my-info">
@@ -61,24 +62,72 @@
   </section>
 
   <section id="projects">
-    <div class="row">
-      <div class="col s12 m7">
-        <div class="card">
-          <div class="card-image">
-            <img src="">
-            <span class="card-title">Card Title</span>
+    <h4>Mis Proyectos</h4>
+    <div class="projects-cards">
+
+      <div class="row">
+        <div class="col s12 m10">
+          <div class="card">
+            <div class="card-image">
+              <img src="../assets/projects_images/cipher_project_3.PNG" class="responsive-img">
+            </div>
+            <div class="card-content">
+              <div class="card-title">Cipher</div>
+              <p class="justify">Este proyecto tiene como objetivo cifrar y descifrar frases utilizando el método de cifrado César. El
+                último consiste en desplazar un número determinado (que selecciona el usuario) de carácteres del alfabeto,
+                tomando como base la posición del carácter original del mensaje. Por ejemplo, si la letra original del mensaje es
+                "A", y se elije un número de desplazamiento de 4, entonces la letra que va a reemplazar a todas las "A" del
+                mensaje será la letra "E", y así se hará con cada carácter. 
+                A la plataforma se le dio un enfoque de ayuda a mujeres en situación de riesgo.
+              </p>
+            </div>
+            <div class="card-action">
+              <a href="https://pau-za.github.io/cdmx-2019-01-bc-core-am-cipher/src/" target="blank"
+                class="pointer">Visita
+                el sitio</a>
+              <a href="https://github.com/Pau-za/cdmx-2019-01-bc-core-am-cipher/tree/master/src" target="blank"
+                class="pointer">Código del sitio</a>
+            </div>
           </div>
-          <div class="card-content">
-            <p>I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.</p>
-          </div>
-          <div class="card-action">
-            <a href="#">This is a link</a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col s12 m11">
+          <div class="card">
+            <div class="card-image">
+              <img src="../assets/projects_images/data_lovers_project_2.png" class="responsive-img">
+            </div>
+            <div class="card-content">
+              <div class="card-title">Data Lovers</div>
+              <p class="justify">En este proyecto trabajo con datos almacenados en una API que contiene datos del Banco Mundial de
+                Desarrollo.
+                Se muestran todos aquellos datos que se relacionan con el desarrollo económico de las
+                mujeres, tales como los demográficos, los laborales y los educativos. Únicamente se trabaja con datos de
+                cuatro países de América Latina: Chile, Perú, México y Brasil. Todos los datos se
+                muestran dinámicamente de acuerdo a lo que el usuario decide observar. Además implementa la
+                observación de data a través de gráficos de <a href="https://www.chartjs.org/">Chart.js</a>.
+              </p>
+            </div>
+            <div class="card-action">
+              <a href="https://pau-za.github.io/cdmx-2019-01-bc-core-data-lovers/src/" target="blank"
+                class="pointer">Visita
+                el sitio</a>
+              <a href="https://github.com/Pau-za/cdmx-2019-01-bc-core-data-lovers/tree/master/src" target="blank"
+                class="pointer">Código del sitio</a>
+            </div>
           </div>
         </div>
       </div>
     </div>
+  </section>
 
+  <section id="tools">
+      <i class="fab fa-js"></i>
+      <i class="fab fa-html5"></i>
+      <i class="fab fa-css3-alt"></i>
+      <i class="fab fa-vuejs"></i>
+      <i class="fab fa-bootstrap"></i>
   </section>
 
   <script type="javascript" src="./index.js"></script>
