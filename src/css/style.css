@@ -52,6 +52,15 @@ section {
 
 }
 
+#picture-pau{
+  width: 17%;
+  height: auto;
+  margin-top: 3%;
+  border-radius: 10%;
+  border: 8px solid #483942;
+  padding: 3px;
+}
+
 #my-info {
   margin: 0% 10%;
   text-align: justify;
@@ -60,6 +69,10 @@ section {
 #projects {
   background-color: #B17BAE;
   padding-top: 1%;
+}
+
+#tools{
+  background-color: #60796B;
 }
 
 @media screen and (max-width: 600px){
