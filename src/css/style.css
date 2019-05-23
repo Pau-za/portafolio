@@ -1,5 +1,5 @@
 body {
-  color: black;
+  color: #2B343F;
 }
 
 nav, .nav-content{
@@ -11,7 +11,7 @@ h1 {
   font-family: 'Geo', sans-serif;
   font-family: 'Sarpanch', sans-serif;
   margin-bottom: -2%;
-  color: #483942;
+  color: #57568C;
 }
 
 h4{
@@ -48,7 +48,7 @@ section {
 
 #about-me {
   text-align: center;
-  background-color: #A4CEB9;
+  background-color: #F2F2F2;
 
 }
 
@@ -57,23 +57,25 @@ section {
   height: auto;
   margin-top: 3%;
   border-radius: 10%;
-  border: 8px solid #483942;
+  border: 8px solid #F24444;
   padding: 3px;
 }
 
-#my-info {
-  margin: 0% 10%;
+.my-info {
+  margin: 5% 0% 0% 0%;
   text-align: justify;
 }
 
 #projects {
-  background-color: #B17BAE;
+  background-color: #F2F2F2;
   padding-top: 1%;
 }
 
 #tools{
-  background-color: #60796B;
+  background-color: #F2F2F2;
 }
+
+
 
 @media screen and (max-width: 600px){
     .projects-cards{
