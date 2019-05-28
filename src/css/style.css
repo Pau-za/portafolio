@@ -1,5 +1,6 @@
 body {
   color: #2B343F;
+  background: radial-gradient(#D9BCA7, #FAE6DA);
 }
 
 nav,
@@ -49,7 +50,7 @@ section {
 
 #about-me {
   text-align: center;
-  background-color: #F2F2F2;
+  /* background-color: #F2F2F2; */
 }
 
 #picture-pau {
@@ -64,24 +65,34 @@ section {
 .my-info {
   margin: 5% 0% 0% 0%;
   text-align: justify;
-  background-color: #2B343F;
+  /* background-color: #2B343F; */
   color: #F2F2F2;
-  box-shadow: -1px -1px 3px rgba(0, 0, 0, 0.1), 10px 10px 16px rgba(0, 0, 0, 0.4);
+  /* box-shadow: -1px -1px 3px rgba(0, 0, 0, 0.1), 10px 10px 16px rgba(0, 0, 0, 0.4); */
+  position: relative;
 }
 
 .push {
   margin: 10% 0% 0% 0%;
 }
 
+
+
+.content-info{
+  margin-top: 25%;
+}
+
 #projects {
-  background-color: #F2F2F2;
+  /* background-color: #F2F2F2; */
   padding-top: 1%;
 }
 
 #tools {
-  background-color: #F2F2F2;
+  /* background-color: #F2F2F2; */
 }
 
+#draw{
+  width: 90%;
+}
 
 
 @media screen and (max-width: 600px) {
