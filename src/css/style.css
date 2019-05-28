@@ -1,6 +1,6 @@
 body {
   color: #2B343F;
-  background: radial-gradient(#D9BCA7, #FAE6DA);
+  /* background: radial-gradient(#D9BCA7, #FAE6DA); */
 }
 
 nav,
@@ -50,7 +50,7 @@ section {
 
 #about-me {
   text-align: center;
-  /* background-color: #F2F2F2; */
+  background-color: #F2F2F2;
 }
 
 #picture-pau {
@@ -75,25 +75,62 @@ section {
   margin: 10% 0% 0% 0%;
 }
 
-
+.icons{
+  width: 166px;
+  margin-left: 6%;
+}
 
 .content-info{
   margin-top: 25%;
 }
 
+.webs{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
 #projects {
-  /* background-color: #F2F2F2; */
+  background-color: #F2F2F2;
   padding-top: 1%;
 }
 
 #tools {
-  /* background-color: #F2F2F2; */
+  background-color: #F2F2F2;
+  margin-top: -3%;
 }
 
 #draw{
   width: 90%;
 }
 
+#vue{
+  width: 8%;
+}
+
+#materialize{
+  width: 12%;
+}
+
+#github{
+  width: 10%;
+}
+
+#html{
+  width: 8%;
+}
+
+#css{
+  width: 8%:
+}
+
+#firebase{
+  width: 8%;
+}
+
+#linkedin{
+  width: 5%;
+}
 
 @media screen and (max-width: 600px) {
   .projects-cards {
