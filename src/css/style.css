@@ -10,7 +10,7 @@ nav,
 
 h1,
 h4 {
-  
+
   margin-bottom: 2%;
   color: #2B343F;
   text-align: center;
@@ -75,19 +75,23 @@ section {
   margin: 10% 0% 0% 0%;
 }
 
-.icons{
-  width: 166px;
+.icons {
+  width: 120px;
   margin-left: 6%;
 }
 
-.content-info{
+.content-info {
   margin-top: 25%;
 }
 
-.webs{
+.webs {
   display: flex;
   justify-content: center;
   flex-direction: row;
+}
+
+.tools-icons{
+  margin-top: 6%;
 }
 
 #projects {
@@ -100,35 +104,33 @@ section {
   margin-top: -3%;
 }
 
-#draw{
+#start {
+  background-color: #F2F2F2;
+}
+
+#draw {
   width: 90%;
 }
 
-#vue{
+#vue,
+#js,
+#node,
+#jest,
+#html,
+#css,
+#firebase {
   width: 8%;
 }
 
-#materialize{
-  width: 12%;
+#materialize {
+  width: 11%;
 }
 
-#github{
+#github {
   width: 10%;
 }
 
-#html{
-  width: 8%;
-}
-
-#css{
-  width: 8%:
-}
-
-#firebase{
-  width: 8%;
-}
-
-#linkedin{
+#linkedin {
   width: 5%;
 }
 
