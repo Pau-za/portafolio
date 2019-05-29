@@ -6,10 +6,15 @@
   <title>My Portafolio</title>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
-  <link href="https://fonts.googleapis.com/css?family=Geo|Padauk|Sarpanch" rel="stylesheet">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Geo|Padauk|Sarpanch" rel="stylesheet"> -->
   <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link
+    href="https://fonts.googleapis.com/css?family=Amatic+SC|Bad+Script|Coming+Soon|Shadows+Into+Light+Two|Zeyada&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+
+
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
@@ -18,77 +23,91 @@
   <div class="navbar-fixed">
     <nav class="nav-extended">
       <div class="nav-wrapper">
-        <a href="#" class="brand-logo"><img src="../assets/logo-pauza-4.png" alt="pauza-logo" width="110 px"
-            height="auto"></a>
+        <a href="#" class="brand-logo"><img src="../assets/icons/pauza_only_icon.png" alt="pauza-logo"
+            width="110 px"></a>
       </div>
       <div class="nav-content">
         <ul class="tabs tabs-transparent">
-          <li class="tab"><a href="#about-me">Acerca de mi</a></li>
-          <li class="tab"><a href="#projects">Proyectos</a></li>
           <li class="tab"><a href="#tools">Herramientas</a></li>
-          <li class="tab"><a href="#my-blog">Mi Blog</a></li>
+          <li class="tab"><a href="#projects">Proyectos</a></li>
+          <li class="tab"><a href="#about-me">Acerca de mi</a></li>
+          <li class="tab"><a href="#contact">Contacto</a></li>
+          <!-- <li class="tab"><a href="#my-blog">Mi Blog</a></li> -->
         </ul>
       </div>
     </nav>
   </div>
 
-  <section id="about-me">
-    <h1>PAUZA</h1>
-    <img src="../assets/pau-pics/pic-1.png" alt="pauza-photo" id="picture-pau" class="responsive-img">
-    <h5>Maestra en Ciencias Biológicas/Frontend Developer</h5>
-    <div id="my-info">
-      <p>Mi nombre completo es Paulina Zedillo Avelleyra. Estudié Biología en la Facultad de Ciencias de la UNAM, y
-        posteriormente la Maestría en Ciencias Biológicas en el Instituto de Ecología de la misma Universidad. La
-        carrera universitaria me dejó la buena costumbre de estudiar y aprender todo el tiempo. Amo la Ecología
-        Evolutiva, y a los mamíferos. Me encanta tener pláticas ñoñas de biología, y suelo sacar temas relacionados con
-        mi carrera en cualquier aspecto de la vida cotidiana, porque no, no somos tan distintos de los animales como nos
-        gusta presumir, y no, no es algo malo.
-      </p>
-      <p>Amo la biología, y soy una ñoña, pero tuve la gran fortuna de descubrir Laboratoria, y con ella, el código.
-        En Laboratoria conocí un mundo de posibilidades infinitas, el desarrollo web. Esto me ha dado la oportunidad de
-        seguir aprendiendo cosas nuevas, que además son aplicables en cualquier aspecto de nuestras vidas. Porque,
-        nuestras vidas dependen cada vez más del internet. Entonces, descubrí una gran <strong>pasión</strong>, la
-        programación.
-      </p>
-      <p>Valoro mucho aprender cada día, ya sea temas de biología, nuevas herramientas para el desarrollo web, o las
-        experiencias que puedo obtener del trabajo colaborativo, y espero tener la oportunidad de seguir desarrollando
-        mis habilidades toda la vida.
-      </p>
+  <section id="start" class="row">
+    <div class="col m1 l1 ">
     </div>
-    <p>Para más información sobre mis habilidades y experiencia, puedes consultar mi CV <a
-        href="../assets/Paulina's Resume.pdf" target="blank">aquí.</a></p>
+
+    <div class="col m3 l3 push">
+      <img src="../assets/icons/pauza_icon_no_layout.png" alt="pauza" class="responsive-img">
+    </div>
+
+
+    <div class="col m3 l3 container my-info">
+      <img id="draw" src="../assets/pau-pics/pauza_draw.jpg" alt="pauza-draw">
+    </div>
+
+    <div class="col m5 l5">
+      <div class="content-info">
+        <p class=>Soy Paulina Zedillo Avelleyra.
+        </p>
+        <p class="">En Laboratoria aprendí la importancia de la programación web y me enamoré del código.
+        </p>
+        <p class="">Puedes consultar mi CV <a href="../assets/Paulina's Resume.pdf" target="blank">aquí.</a></p>
+
+      </div>
+    </div>
+
   </section>
 
   <section id="tools">
-    <i class="fab fa-js"></i>
-    <i class="fab fa-html5"></i>
-    <i class="fab fa-css3-alt"></i>
-    <i class="fab fa-vuejs"></i>
-    <i class="fab fa-bootstrap"></i>
+    <h4>Herramientas</h4>
+
+    <div class="row tools-icons">
+      <div class="col l1 m1 s1"></div>
+      <a href="https://vuejs.org/v2/guide/" target="blank"><img id="vue" class="icons col l1 m1 s1 responsive-img"
+          src="../assets/icons/vue-logo.png" alt="vuejs" title="vuejs"></a>
+      <a href="https://www.javascript.com/" target="blank"><img id="js" class="icons col l1 m1 s1 responsive-img"
+          src="../assets/icons/javascript.png" alt="javascript" title="javascript"></a>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" target="blank"><img id="html"
+          class="icons col l1 m1 s1 responsive-img" src="../assets/icons/HTML_Logo.png" alt="html5" title="html5"></a>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="blank"><img id="css"
+          class="icons col l1 m1 s1 responsive-img" src="../assets/icons/css3-512.png" alt="css3" title="css3"></a>
+      <a href="https://nodejs.org/en/" target="blank"><img id="node" class="icons col l1 m1 s1 responsive-img"
+          src="../assets/icons/nodejs.png" alt="nodejs" title="nodejs"></a>
+      <a href="https://console.firebase.google.com/u/0/" target="blank"><img id="firebase"
+          class="icons col l1 m1 s1 responsive-img" src="../assets/icons/firebase.png" alt="firebase"
+          title="firebase"></a>
+      <a href="https://materializecss.com/" target="blank"><img id="materialize"
+          class="icons col l1 m1 s1 responsive-img" src="../assets/icons/materialize3.png" alt="materialize"
+          title="materialize"></a>
+      <a href="https://jestjs.io/" target="blank"><img id="jest" class="icons col l1 m1 s1 responsive-img"
+          src="../assets/icons/jest-logo.png" alt="jest" title="jest"></a>
+      <a href="https://github.com/" target="blank"><img id="github" class="icons col l1 m1 s1 responsive-img"
+          src="../assets/icons/Octocat.png" alt="github" title="Github"></a>
+      <div class="col l2 m2 s1"></div>
+    </div>
   </section>
 
   <section id="projects">
     <h4>Mis Proyectos</h4>
-    <div class="projects-cards">
+    <div class="projects-cards container">
 
       <div class="row">
-        <div class="col s12 m10">
+        <div class="col s12 m6 l6">
           <div class="card">
             <div class="card-image">
               <img src="../assets/projects_images/cipher_project_3.PNG" class="responsive-img">
             </div>
             <div class="card-content">
               <div class="card-title">Cipher</div>
-              <p class="justify">Este proyecto tiene como objetivo cifrar y descifrar frases utilizando el método de
-                cifrado César. El
-                último consiste en desplazar un número determinado (que selecciona el usuario) de carácteres del
-                alfabeto,
-                tomando como base la posición del carácter original del mensaje. Por ejemplo, si la letra original del
-                mensaje es
-                "A", y se elije un número de desplazamiento de 4, entonces la letra que va a reemplazar a todas las "A"
-                del
-                mensaje será la letra "E", y así se hará con cada carácter.
-                A la plataforma se le dio un enfoque de ayuda a mujeres en situación de riesgo.
+              <p class="justify">Utilizando <strong>vanilla javascript</strong>, <strong>HTML 5</strong>, y <strong>CSS
+                  3</strong> creé una interfaz que ayuda a codificar y decodificar mensajes mediante el <strong>Cifrado
+                  César</strong>.
               </p>
             </div>
             <div class="card-action">
@@ -100,24 +119,17 @@
             </div>
           </div>
         </div>
-      </div>
 
-      <div class="row">
-        <div class="col s12 m11">
+        <div class="col s12 m6 l6">
           <div class="card">
             <div class="card-image">
               <img src="../assets/projects_images/data_lovers_project_2.png" class="responsive-img">
             </div>
             <div class="card-content">
               <div class="card-title">Data Lovers</div>
-              <p class="justify">En este proyecto trabajo con datos almacenados en una API que contiene datos del Banco
-                Mundial de
-                Desarrollo.
-                Se muestran todos aquellos datos que se relacionan con el desarrollo económico de las
-                mujeres, tales como los demográficos, los laborales y los educativos. Únicamente se trabaja con datos de
-                cuatro países de América Latina: Chile, Perú, México y Brasil. Todos los datos se
-                muestran dinámicamente de acuerdo a lo que el usuario decide observar. Además implementa la
-                observación de data a través de gráficos de <a href="https://www.chartjs.org/">Chart.js</a>.
+              <p class="justify">Este proyecto se alimenta de una <strong>API</strong> de datos del
+                <strong>Banco Mundial de Desarrollo</strong> y los muestra en tablas hechas con HTML, y en gráficas de
+                <a href="https://www.chartjs.org/">Chart.js</a>.
               </p>
             </div>
             <div class="card-action">
@@ -130,12 +142,80 @@
           </div>
         </div>
       </div>
+
+      
+      </div>
     </div>
+
+    <div class="container">
+
+      <div class="row">
+          <div class="col s12 m6 l6">
+            <div class="card">
+              <div class="card-image">
+                <img src="../assets/projects_images/mdlinks3.png" class="responsive-img">
+              </div>
+              <div class="card-content">
+                <div class="card-title">Markdown Links</div>
+                <p class="justify">Utilicé vanilla JS para identificar, mediante la <strong>terminal de bash</strong>, la
+                  cantidad de links que hay en un documento <strong>Markdown</strong>, y validar si están rotos o no.
+                </p>
+              </div>
+              <div class="card-action">
+                <a href="https://www.npmjs.com/package/markdown-find-links" target="blank"
+                  class="pointer">Descarga</a>
+                <a href="https://github.com/Pau-za/CDMX007-fe-md-links" target="blank"
+                  class="pointer">Código del sitio</a>
+              </div>
+            </div>
+          </div>
+
+    </div>  
+
+
   </section>
 
-  <script type="javascript" src="./index.js"></script>
+  <section id="contact">
+    <h4>Contáctame:</h4>
+    <div class="webs">
+      <a href="https://www.linkedin.com/in/pau-za/" target="blank"><img id="linkedin" src="../assets/icons/linkedin.png"
+          alt="linkedin" title="Linkedin"></a>
+
+    </div>
+    <!-- <a href="https://www.linkedin.com/in/pau-za/" target="blank"><img src="../assets/icons/linkedin.png" alt="linkedin"
+        title="Linkedin"></a> -->
+  </section>
+
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Footer Content</h5>
+          <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Links</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        © 2014 Copyright Text
+        <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+      </div>
+    </div>
+  </footer>
+
+  <script type="javascript" src="./js/index.js"></script>
   <script type="text/javascript" src="js/materialize.js"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>
+
 </body>
 </body>
 

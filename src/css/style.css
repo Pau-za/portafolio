@@ -1,25 +1,27 @@
 body {
-  color: black;
+  color: #2B343F;
+  /* background: radial-gradient(#D9BCA7, #FAE6DA); */
 }
 
-nav, .nav-content{
-    text-align: center;
+nav,
+.nav-content {
+  text-align: center;
 }
 
-h1 {
-  font-family: 'Padauk', sans-serif;
-  font-family: 'Geo', sans-serif;
-  font-family: 'Sarpanch', sans-serif;
-  margin-bottom: -2%;
-  color: #483942;
+h1,
+h4 {
+
+  margin-bottom: 2%;
+  color: #2B343F;
+  text-align: center;
 }
 
-h4{
-    font-family: 'Padauk', sans-serif;
-    font-family: 'Geo', sans-serif;
-    font-family: 'Sarpanch', sans-serif;
-    text-align: center;
-}
+
+
+/* h4 {
+  font-family: 'BenchNine', sans-serif;
+  
+} */
 
 section {
   padding-bottom: 2%;
@@ -35,50 +37,107 @@ section {
   cursor: pointer;
 }
 
-.projects-cards{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-left: 7%;
+.projects-cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 7%;
 }
 
-.justify{
-    text-align: justify;
+.justify {
+  text-align: justify;
 }
 
 #about-me {
   text-align: center;
-  background-color: #A4CEB9;
-
+  background-color: #F2F2F2;
 }
 
-#picture-pau{
+#picture-pau {
   width: 17%;
   height: auto;
   margin-top: 3%;
   border-radius: 10%;
-  border: 8px solid #483942;
+  border: 8px solid #F24444;
   padding: 3px;
 }
 
-#my-info {
-  margin: 0% 10%;
+.my-info {
+  margin: 5% 0% 0% 0%;
   text-align: justify;
+  /* background-color: #2B343F; */
+  color: #F2F2F2;
+  /* box-shadow: -1px -1px 3px rgba(0, 0, 0, 0.1), 10px 10px 16px rgba(0, 0, 0, 0.4); */
+  position: relative;
+}
+
+.push {
+  margin: 10% 0% 0% 0%;
+}
+
+.icons {
+  width: 120px;
+  margin-left: 6%;
+}
+
+.content-info {
+  margin-top: 25%;
+}
+
+.webs {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.tools-icons{
+  margin-top: 6%;
 }
 
 #projects {
-  background-color: #B17BAE;
+  background-color: #F2F2F2;
   padding-top: 1%;
 }
 
-#tools{
-  background-color: #60796B;
+#tools {
+  background-color: #F2F2F2;
+  margin-top: -3%;
 }
 
-@media screen and (max-width: 600px){
-    .projects-cards{
-        display: unset;
-        align-items: center;
-    }
+#start {
+  background-color: #F2F2F2;
+}
+
+#draw {
+  width: 90%;
+}
+
+#vue,
+#js,
+#node,
+#jest,
+#html,
+#css,
+#firebase {
+  width: 8%;
+}
+
+#materialize {
+  width: 11%;
+}
+
+#github {
+  width: 10%;
+}
+
+#linkedin {
+  width: 5%;
+}
+
+@media screen and (max-width: 600px) {
+  .projects-cards {
+    display: unset;
+    align-items: center;
+  }
 
 }
