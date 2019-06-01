@@ -16,7 +16,13 @@ h4 {
   text-align: center;
 }
 
-
+p,
+a,
+link {
+  font-family: 'Poiret One', cursive;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: 'Gruppo', cursive;
+}
 
 /* h4 {
   font-family: 'BenchNine', sans-serif;
@@ -90,7 +96,7 @@ section {
   flex-direction: row;
 }
 
-.tools-icons{
+.tools-icons {
   margin-top: 6%;
 }
 
@@ -101,10 +107,11 @@ section {
 
 #tools {
   background-color: #F2F2F2;
-  margin-top: -3%;
+  margin-top: -6%;
 }
 
-#start, #aboutme {
+#start,
+#aboutme {
   background-color: #F2F2F2;
 }
 
@@ -134,7 +141,7 @@ section {
   width: 5%;
 }
 
-#s-icon{
+#s-icon {
   width: 5%;
 }
 
