@@ -37,12 +37,12 @@ section {
   cursor: pointer;
 }
 
-.projects-cards {
+/* .projects-cards {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   margin-left: 7%;
-}
+} */
 
 .justify {
   text-align: justify;
@@ -104,7 +104,7 @@ section {
   margin-top: -3%;
 }
 
-#start {
+#start, #aboutme {
   background-color: #F2F2F2;
 }
 
@@ -131,6 +131,10 @@ section {
 }
 
 #linkedin {
+  width: 5%;
+}
+
+#s-icon{
   width: 5%;
 }
 
