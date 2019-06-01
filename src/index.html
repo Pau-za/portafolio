@@ -8,10 +8,13 @@
   <link rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
   <!-- <link href="https://fonts.googleapis.com/css?family=Geo|Padauk|Sarpanch" rel="stylesheet"> -->
   <link rel="stylesheet" href="./css/style.css">
-  <link
+  <!-- <link
     href="https://fonts.googleapis.com/css?family=Amatic+SC|Bad+Script|Coming+Soon|Shadows+Into+Light+Two|Zeyada&display=swap"
+    rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css?family=Gruppo|Montserrat+Alternates|Poiret+One&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+
 
 
 
@@ -23,14 +26,13 @@
   <div class="navbar-fixed">
     <nav class="nav-extended">
       <div class="nav-wrapper">
-        <a href="#" class="brand-logo"><img src="../assets/icons/pauza_only_icon.png" alt="pauza-logo"
-            width="110 px"></a>
+        <a href="#" class="brand-logo"><img src="../assets/logo-pauza-5.png" alt="pauza-logo" width="110 px"></a>
       </div>
       <div class="nav-content">
         <ul class="tabs tabs-transparent">
           <li class="tab"><a href="#tools">Herramientas</a></li>
           <li class="tab"><a href="#projects">Proyectos</a></li>
-          <li class="tab"><a href="#about-me">Acerca de mi</a></li>
+          <li class="tab"><a href="#aboutme">Acerca de mi</a></li>
           <li class="tab"><a href="#contact">Contacto</a></li>
           <!-- <li class="tab"><a href="#my-blog">Mi Blog</a></li> -->
         </ul>
@@ -42,6 +44,7 @@
     <div class="col m1 l1 ">
     </div>
 
+
     <div class="col m3 l3 push">
       <img src="../assets/icons/pauza_icon_no_layout.png" alt="pauza" class="responsive-img">
     </div>
@@ -51,7 +54,7 @@
       <img id="draw" src="../assets/pau-pics/pauza_draw.jpg" alt="pauza-draw">
     </div>
 
-    <div class="col m5 l5">
+    <div class="col m4 l4">
       <div class="content-info">
         <p class=>Soy Paulina Zedillo Avelleyra.
         </p>
@@ -60,6 +63,9 @@
         <p class="">Puedes consultar mi CV <a href="../assets/Paulina's Resume.pdf" target="blank">aquí.</a></p>
 
       </div>
+    </div>
+
+    <div class="col m1 l1 ">
     </div>
 
   </section>
@@ -95,127 +101,147 @@
 
   <section id="projects">
     <h4>Mis Proyectos</h4>
-    <div class="projects-cards container">
-
-      <div class="row">
-        <div class="col s12 m6 l6">
-          <div class="card">
-            <div class="card-image">
-              <img src="../assets/projects_images/cipher_project_3.PNG" class="responsive-img">
-            </div>
-            <div class="card-content">
-              <div class="card-title">Cipher</div>
-              <p class="justify">Utilizando <strong>vanilla javascript</strong>, <strong>HTML 5</strong>, y <strong>CSS
-                  3</strong> creé una interfaz que ayuda a codificar y decodificar mensajes mediante el <strong>Cifrado
-                  César</strong>.
-              </p>
-            </div>
-            <div class="card-action">
-              <a href="https://pau-za.github.io/cdmx-2019-01-bc-core-am-cipher/src/" target="blank"
-                class="pointer">Visita
-                el sitio</a>
-              <a href="https://github.com/Pau-za/cdmx-2019-01-bc-core-am-cipher/tree/master/src" target="blank"
-                class="pointer">Código del sitio</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col s12 m6 l6">
-          <div class="card">
-            <div class="card-image">
-              <img src="../assets/projects_images/data_lovers_project_2.png" class="responsive-img">
-            </div>
-            <div class="card-content">
-              <div class="card-title">Data Lovers</div>
-              <p class="justify">Este proyecto se alimenta de una <strong>API</strong> de datos del
-                <strong>Banco Mundial de Desarrollo</strong> y los muestra en tablas hechas con HTML, y en gráficas de
-                <a href="https://www.chartjs.org/">Chart.js</a>.
-              </p>
-            </div>
-            <div class="card-action">
-              <a href="https://pau-za.github.io/cdmx-2019-01-bc-core-data-lovers/src/" target="blank"
-                class="pointer">Visita
-                el sitio</a>
-              <a href="https://github.com/Pau-za/cdmx-2019-01-bc-core-data-lovers/tree/master/src" target="blank"
-                class="pointer">Código del sitio</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      
-      </div>
-    </div>
-
-    <div class="container">
-
-      <div class="row">
+    <div class="projects-cards">
+      <div class="container">
+        <div class="row">
           <div class="col s12 m6 l6">
             <div class="card">
               <div class="card-image">
-                <img src="../assets/projects_images/mdlinks3.png" class="responsive-img">
+                <img src="../assets/projects_images/cipher_project_3.PNG" class="responsive-img">
               </div>
               <div class="card-content">
-                <div class="card-title">Markdown Links</div>
-                <p class="justify">Utilicé vanilla JS para identificar, mediante la <strong>terminal de bash</strong>, la
-                  cantidad de links que hay en un documento <strong>Markdown</strong>, y validar si están rotos o no.
+                <div class="card-title">Cipher</div>
+                <p class="justify">Utilizando <strong>vanilla javascript</strong>, <strong>HTML 5</strong>, y
+                  <strong>CSS
+                    3</strong> creé una interfaz que ayuda a codificar y decodificar mensajes mediante el
+                  <strong>Cifrado
+                    César</strong>.
                 </p>
               </div>
               <div class="card-action">
-                <a href="https://www.npmjs.com/package/markdown-find-links" target="blank"
-                  class="pointer">Descarga</a>
-                <a href="https://github.com/Pau-za/CDMX007-fe-md-links" target="blank"
+                <a href="https://pau-za.github.io/cdmx-2019-01-bc-core-am-cipher/src/" target="blank"
+                  class="pointer">Visita
+                  el sitio</a>
+                <a href="https://github.com/Pau-za/cdmx-2019-01-bc-core-am-cipher/tree/master/src" target="blank"
                   class="pointer">Código del sitio</a>
               </div>
             </div>
           </div>
 
-    </div>  
+          <div class="col s12 m6 l6">
+            <div class="card">
+              <div class="card-image">
+                <img src="../assets/projects_images/data_lovers_project_2.png" class="responsive-img">
+              </div>
+              <div class="card-content">
+                <div class="card-title">Data Lovers</div>
+                <p class="justify">Este proyecto se alimenta de una <strong>API</strong> de datos del
+                  <strong>Banco Mundial de Desarrollo</strong> y los muestra en tablas hechas con HTML, y en gráficas de
+                  <a href="https://www.chartjs.org/">Chart.js</a>.
+                </p>
+              </div>
+              <div class="card-action">
+                <a href="https://pau-za.github.io/cdmx-2019-01-bc-core-data-lovers/src/" target="blank"
+                  class="pointer">Visita
+                  el sitio</a>
+                <a href="https://github.com/Pau-za/cdmx-2019-01-bc-core-data-lovers/tree/master/src" target="blank"
+                  class="pointer">Código del sitio</a>
+              </div>
+            </div>
+          </div>
+        </div>
 
 
-  </section>
-
-  <section id="contact">
-    <h4>Contáctame:</h4>
-    <div class="webs">
-      <a href="https://www.linkedin.com/in/pau-za/" target="blank"><img id="linkedin" src="../assets/icons/linkedin.png"
-          alt="linkedin" title="Linkedin"></a>
-
+      </div>
     </div>
-    <!-- <a href="https://www.linkedin.com/in/pau-za/" target="blank"><img src="../assets/icons/linkedin.png" alt="linkedin"
-        title="Linkedin"></a> -->
+
+    <div class="container">
+
+      <div class="row">
+        <div class="col s12 m6 l6">
+          <div class="card">
+            <div class="card-image">
+              <img src="../assets/projects_images/mdlinks3.png" class="responsive-img">
+            </div>
+            <div class="card-content">
+              <div class="card-title">Markdown Links</div>
+              <p class="justify">Utilicé vanilla JS para identificar, mediante la <strong>terminal de bash</strong>, la
+                cantidad de links que hay en un documento <strong>Markdown</strong>, y validar si están rotos o no.
+              </p>
+            </div>
+            <div class="card-action">
+              <a href="https://www.npmjs.com/package/markdown-find-links" target="blank" class="pointer">Descarga</a>
+              <a href="https://github.com/Pau-za/CDMX007-fe-md-links" target="blank" class="pointer">Código del
+                sitio</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m6 l6">
+          <div class="card">
+            <div class="card-image">
+              <img src="../assets/projects_images/bq.PNG" class="responsive-img">
+            </div>
+            <div class="card-content">
+              <div class="card-title">Burger Queen</div>
+              <p class="justify">Utilicé el framework de javascript <strong>Vuejs</strong> para desarrollar una
+                aplicación web mediante la cual los meseros de un restaurante pudieran tomar las órdenes de los clientes
+                del mismo.
+              </p>
+              <p>Se alimenta de una base de datos alojada en <strong>Firestore de Firebase</strong>, y cada orden se
+                guarda en la misma.</p>
+            </div>
+            <div class="card-action">
+              <a href="https://www.npmjs.com/package/markdown-find-links" target="blank" class="pointer">Descarga</a>
+              <a href="https://github.com/Pau-za/CDMX007-fe-md-links" target="blank" class="pointer">Código del
+                sitio</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
   </section>
 
-  <footer class="page-footer">
+  <section id="aboutme">
+    <div class="container">
+      <h4>About me</h4>
+      <p>Laboratoria + mi background científico me han dado habilidades de autoaprendizaje, responsabilidad, trabajo en
+        equipo, comunicación oral y escrita, gestión de tiempos, con el plus de trabajar de una manera ágil.
+      </p>
+      <p>Disfruto y valoro mucho tener la oportunidad de aprender día con día, y espero no detenerme jamás.</p>
+    </div>
+  </section>
+
+  <footer class="page-footer" id="contact">
     <div class="container">
       <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Footer Content</h5>
-          <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
-        </div>
-        <div class="col l4 offset-l2 s12">
-          <h5 class="white-text">Links</h5>
+        <div class="col l6 m6 s12">
+          <h5 class="white-text">Contáctame</h5>
           <ul>
-            <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-            <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-            <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-            <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+            <li>
+              <p>Celular: 5519390992</p>
+            </li>
+          </ul>
+
+        </div>
+        <div class="col l4 offset-l2 m6 s12">
+          <h5 class="white-text">Redes Sociales</h5>
+          <ul>
+            <li><a href="https://www.linkedin.com/in/pau-za/"
+                target="blank">Linkedin</a></li>
+            <li><a href="https://github.com/Pau-za" target="blank">Github</a></li>
           </ul>
         </div>
       </div>
     </div>
-    <div class="footer-copyright">
-      <div class="container">
-        © 2014 Copyright Text
-        <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
-      </div>
-    </div>
+
   </footer>
 
   <script type="javascript" src="./js/index.js"></script>
   <script type="text/javascript" src="js/materialize.js"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>
-
+  <script src="https://kit.fontawesome.com/df5ee5378b.js"></script>
 </body>
 </body>
 
