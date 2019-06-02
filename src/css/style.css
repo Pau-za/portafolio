@@ -221,7 +221,11 @@ section {
 
 @media screen and (min-device-width: 993px) and (max-device-width: 1600px) {
   #logo-pauza{
-    margin-left: -50%;
+    margin-left: -100%;
     text-align: center;
+  }
+
+  #tools-title{
+    margin-top: 8%;
   }
 }
