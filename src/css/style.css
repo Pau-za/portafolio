@@ -22,6 +22,7 @@ link {
   font-family: 'Poiret One', cursive;
   font-family: 'Montserrat Alternates', sans-serif;
   font-family: 'Gruppo', cursive;
+  font-size: 1.5em;
 }
 
 /* h4 {
@@ -86,7 +87,7 @@ section {
   margin-left: 6%;
 }
 
-.pic{
+.pic {
   margin-top: 13%;
 }
 
@@ -123,9 +124,9 @@ section {
 #draw {
   width: 80%;
   border-radius: 50%;
-  padding:8px; 
+  padding: 8px;
   /* background-color: #F7A49D;  */
-  border-bottom: 1px solid #57568C; 
+  border-bottom: 1px solid #57568C;
   border-right: 1px solid #57568C;
 }
 
@@ -156,13 +157,19 @@ section {
 }
 
 
-#complete{
+#complete {
   display: block;
 }
 
-#just-text{
+#just-text {
   display: none;
 }
+
+#link-cv {
+  color: #F24444;
+  font-size: 1em;
+}
+
 @media screen and (max-width: 600px) {
   .projects-cards {
     display: unset;
@@ -170,38 +177,51 @@ section {
   }
 
   #vue,
-#js,
-#node,
-#jest,
-#html,
-#css,
-#firebase {
-  width: 19%;
+  #js,
+  #node,
+  #jest,
+  #html,
+  #css,
+  #firebase {
+    width: 19%;
+  }
+
+  #materialize {
+    width: 22%;
+  }
+
+  #github {
+    width: 20%;
+  }
+
+  .content-info {
+    margin-top: 6%;
+  }
+
+  #draw {
+    width: 45%;
+
+  }
+
+  #complete {
+    display: none;
+  }
+
+  #just-text {
+    display: block;
+  }
+
 }
 
-#materialize {
-  width: 22%;
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .content-info {
+    margin-top: 20%;
+  }
 }
 
-#github {
-  width: 20%;
-}
-
-.content-info{
-  margin-top: 6%;
-}
-
-#draw{
-  width: 45%;
-
-}
-
-#complete{
-  display: none;
-}
-
-#just-text{
-  display: block;
-}
-
+@media screen and (min-device-width: 993px) and (max-device-width: 1600px) {
+  #logo-pauza{
+    margin-left: -50%;
+    text-align: center;
+  }
 }
