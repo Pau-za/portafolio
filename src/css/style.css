@@ -70,7 +70,7 @@ section {
 
 .my-info {
   margin: 5% 0% 0% 0%;
-  text-align: justify;
+  text-align: center;
   /* background-color: #2B343F; */
   color: #F2F2F2;
   /* box-shadow: -1px -1px 3px rgba(0, 0, 0, 0.1), 10px 10px 16px rgba(0, 0, 0, 0.4); */
@@ -86,8 +86,13 @@ section {
   margin-left: 6%;
 }
 
+.pic{
+  margin-top: 13%;
+}
+
 .content-info {
-  margin-top: 25%;
+  margin-top: 44%;
+  text-align: center;
 }
 
 .webs {
@@ -116,7 +121,12 @@ section {
 }
 
 #draw {
-  width: 90%;
+  width: 80%;
+  border-radius: 50%;
+  padding:8px; 
+  /* background-color: #F7A49D;  */
+  border-bottom: 1px solid #57568C; 
+  border-right: 1px solid #57568C;
 }
 
 #vue,
@@ -145,10 +155,53 @@ section {
   width: 5%;
 }
 
+
+#complete{
+  display: block;
+}
+
+#just-text{
+  display: none;
+}
 @media screen and (max-width: 600px) {
   .projects-cards {
     display: unset;
     align-items: center;
   }
+
+  #vue,
+#js,
+#node,
+#jest,
+#html,
+#css,
+#firebase {
+  width: 19%;
+}
+
+#materialize {
+  width: 22%;
+}
+
+#github {
+  width: 20%;
+}
+
+.content-info{
+  margin-top: 6%;
+}
+
+#draw{
+  width: 45%;
+
+}
+
+#complete{
+  display: none;
+}
+
+#just-text{
+  display: block;
+}
 
 }
