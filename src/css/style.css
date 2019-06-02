@@ -1,6 +1,5 @@
 body {
   color: #2B343F;
-  /* background: radial-gradient(#D9BCA7, #FAE6DA); */
 }
 
 nav,
@@ -19,16 +18,13 @@ h4 {
 p,
 a,
 link {
-  font-family: 'Poiret One', cursive;
+
   font-family: 'Montserrat Alternates', sans-serif;
   font-family: 'Gruppo', cursive;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 1.5em;
 }
-
-/* h4 {
-  font-family: 'BenchNine', sans-serif;
-  
-} */
 
 section {
   padding-bottom: 2%;
@@ -43,13 +39,6 @@ section {
 .pointer {
   cursor: pointer;
 }
-
-/* .projects-cards {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  margin-left: 7%;
-} */
 
 .justify {
   text-align: justify;
@@ -72,9 +61,7 @@ section {
 .my-info {
   margin: 5% 0% 0% 0%;
   text-align: center;
-  /* background-color: #2B343F; */
   color: #F2F2F2;
-  /* box-shadow: -1px -1px 3px rgba(0, 0, 0, 0.1), 10px 10px 16px rgba(0, 0, 0, 0.4); */
   position: relative;
 }
 
@@ -125,7 +112,6 @@ section {
   width: 80%;
   border-radius: 50%;
   padding: 8px;
-  /* background-color: #F7A49D;  */
   border-bottom: 1px solid #57568C;
   border-right: 1px solid #57568C;
 }
@@ -220,12 +206,12 @@ section {
 }
 
 @media screen and (min-device-width: 993px) and (max-device-width: 1600px) {
-  #logo-pauza{
+  #logo-pauza {
     margin-left: -100%;
     text-align: center;
   }
 
-  #tools-title{
+  #tools-title {
     margin-top: 8%;
   }
 }
